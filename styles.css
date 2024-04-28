@@ -1,0 +1,64 @@
+body {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 10%;
+    background-image: url('img/fondo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text h1{
+    font-size: 48px; 
+    background: -webkit-linear-gradient(deeppink, blueviolet, rgb(48, 48, 234)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent; 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo, .login, .links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 0;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.links a, .login {
+    margin: 0 20px;
+}
+
+.links a:hover, .links a:focus, .login:hover, .login:focus {
+    border-bottom: 3px solid #ffffff;
+    color: #cccccc;
+}
+
+.logo, .login {
+    flex-grow: 0;
+}
+
+.logo svg, .login img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+.logo2{
+    padding-top: 80px;
+}
